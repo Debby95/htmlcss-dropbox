@@ -32,7 +32,7 @@ nav {
     text-align: center;
 }
 
-button {
+.button-start {
     padding: 5px 20px;
 }
 
@@ -61,4 +61,26 @@ button {
 
 h1 {
     font-size: 60px;
+}
+
+.col-text {
+    border: 1px dashed #000000;
+    width: 30%;
+    margin-top: 30px;
+    padding-bottom: 40px;
+    margin-bottom: 30px;
+}
+
+.button-try-free {
+    width: 30%;
+    padding: 10px;
+    margin-bottom: 30px;
+    border: 1px dashed #000000;
+}
+
+.arrow {
+    margin-top: 60px;
+    width: 20%;
+    height: 70px;
+    border: 1px dashed #000000;
 }
