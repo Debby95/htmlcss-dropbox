@@ -84,8 +84,8 @@ h1 {
 .bg-white {
     display: flex;
     justify-content: center;
-    height: 1100px;
-    background-color: white;
+    height: 1400px;
+    background-color: lightcyan;
     border: 1px dashed #000000;
     padding-top: 50px;
     margin-top: 100px;
@@ -99,10 +99,10 @@ h1 {
 }
 
 .bg-grey {
-    background-color: white;
+    background-color: lightpink;
     border: 1px dashed #000000;
     width: 80%;
-    height: 1000px;
+    height: 1300px;
 }
 
 .card {
@@ -116,4 +116,11 @@ h1 {
 .col-card {
     border: 1px solid gray;
     flex-grow: 1;
+}
+
+.last-card {
+    display: flex;
+    padding: 30px 40px;
+    justify-content: center;
+    height: 300px; 
 }
