@@ -137,13 +137,19 @@ h2 {
     display: flex;
     padding: 30px 40px;
     justify-content: center;
-    height: 800px; 
+    height: 900px; 
     gap: 30px;
 }
 
 h4 {
     text-align: center;
     padding: 5px;
+}
+
+.small-hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 130px;
 }
 
 .col-card {
