@@ -193,7 +193,6 @@ ul {
 .last-card {
     display: flex;
     height: 250px; 
-    text-align: center;
     padding-top: 20px;
 }
 
@@ -251,19 +250,25 @@ h2 {
     padding: 10px 30px;
 }
 
+.center-title {
+    margin-left: 40px;
+}
+
 .card2 {
     display: flex;
     padding: 30px 40px;
     justify-content: center;
-    height: 400px; 
+    height: 500px; 
     gap: 30px;
 }
 
 .col-card2 {
-    border: 1px solid gray;
     flex-grow: 1;
 }
 
+.operations-img {
+    width: 300px;
+}
 .team-section {
     padding: 30px 40px;
     justify-content: center;
