@@ -43,11 +43,14 @@ nav {
     border: none;
 }
 
-.button-start {
-    padding: 5px 20px;
+button {
     background-color: rgb(17, 94, 167);
     color: white;
     border: none;
+}
+
+.button-start {
+    padding: 5px 20px;
 }
 
 .bg-lightblue {
@@ -70,7 +73,8 @@ h1 {
 
 .row2 {
     flex-direction: row;
-    display: flex
+    display: flex;
+    gap: 10px;
 }
 
 .col-text {
@@ -181,10 +185,7 @@ ul {
 }
 
 .button-cards {
-    background-color: rgb(17, 94, 167);
-    color: white;
     padding: 10px;
-    border: none;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -215,27 +216,26 @@ ul {
 }
 
 .button-last-cards {
-    background-color: rgb(17, 94, 167);
-    color: white;
     padding: 10px;
-    border: none;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
 .bg-partner-dropbox {
+    width: 1200px;
+    margin: 0 auto;
     height: 500px;
-    background-color: lightcyan;
-    border: 1px dashed #000000;
-    padding-top: 100px;
+    padding-top: 50px;
     margin-top: 100px;
 }
 
 .partner-img {
-    background-color: salmon;
-    border: 1px dashed #000000;
-    width: 70%;
-    height: 300px;
+    height: 400px;
+    margin-left: 50px;
+}
+
+.col-partner-text {
+    margin-right: 100px;
 }
 
 h2 {
@@ -244,6 +244,7 @@ h2 {
 
 .button-partner-research {
     margin-top: 20px;
+    padding: 10px 30px;
 }
 
 .card2 {
