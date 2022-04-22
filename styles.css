@@ -9,8 +9,12 @@ body {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1600px;
     margin: 0 auto;
+}
+
+.small {
+    width: 1200px;
 }
 
 nav {
@@ -19,6 +23,50 @@ nav {
     background-color: white;
     padding-bottom: 20px;
     padding-top: 20px;
+}
+
+a {
+    color: blue;
+}
+
+button {
+    background-color: rgb(17, 94, 167);
+    color: white;
+    border: none;
+}
+
+h1 {
+    font-size: 70px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    margin-top: 10px;
+}
+
+h4 {
+    text-align: center;
+    padding: 5px;
+}
+
+h5 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 30px;
+}
+
+li {
+    margin-bottom: 20px;
 }
 
 .logo {
@@ -43,12 +91,6 @@ nav {
     border: none;
 }
 
-button {
-    background-color: rgb(17, 94, 167);
-    color: white;
-    border: none;
-}
-
 .button-start {
     padding: 5px 20px;
 }
@@ -63,12 +105,6 @@ button {
 
 .title {
     height: 100px;
-}
-
-h1 {
-    font-size: 70px;
-    margin-left: 40px;
-    margin-right: 40px;
 }
 
 .row2 {
@@ -118,6 +154,7 @@ h1 {
 
 .cancel {
     text-decoration: none;
+    color: black;
 }
 
 .arrow {
@@ -131,30 +168,11 @@ h1 {
     height: 1300px;
 }
 
-h2 {
-    font-size: 50px;
-}
-
 .card {
     display: flex;
-    justify-content: center;
-    height: 900px; 
+    justify-content: center; 
     gap: 30px;
     margin-top: 60px;
-}
-
-h3 {
-    margin-top: 10px;
-}
-
-h5 {
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-h4 {
-    text-align: center;
-    padding: 5px;
 }
 
 .small-hr {
@@ -166,6 +184,7 @@ h4 {
 .col-card {
     border: 1px solid gray;
     flex-grow: 1;
+    flex-basis: 0;
 }
 
 .description {
@@ -177,11 +196,6 @@ h4 {
 .cards-icon {
     width: 15px;
     margin-right: 10px;
-}
-
-ul {
-    list-style-type: none;
-    margin-top: 30px;
 }
 
 .button-cards {
@@ -241,10 +255,6 @@ ul {
     margin-right: 100px;
 }
 
-h2 {
-    margin-bottom: 20px;
-}
-
 .button-partner-research {
     margin-top: 20px;
     padding: 10px 30px;
@@ -269,19 +279,103 @@ h2 {
 .operations-img {
     width: 300px;
 }
+
 .team-section {
     padding: 30px 40px;
     justify-content: center;
     height: 300px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .bg-colors {
-    height: 300px;
-    background-color: lightslategray;
-    border: 1px dashed #000000;
-    padding-top: 50px;
-    margin-top: 10px;
-    margin-bottom: 20px;
+    height: 400px;
+    width: 1200px;
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+}
+
+.designit-green {
+    border: 10px solid rgb(196, 228, 196);
+    background-color: lightgreen;
+}
+
+.university-of-florida {
+    background-color: rgb(64, 134, 240);
+}
+
+.arizona-state-university {
+    background-color: rgb(90, 28, 52);
+    position: relative;
+    left: 200px;
+    bottom: 400px;
+}
+
+.topps {
+    background-color: red;
+    position: relative;
+    left: 200px;
+    bottom: 400px;
+}
+
+.big-square-white {
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    bottom: 1600px;
+    position: relative;
+    left: 400px;
+}
+
+.world-bicycle-relief {
+    background-color: red;
+    position: relative;
+    left: 800px;
+    bottom: 800px;
+}
+
+.lonely-planet {
+    background-color: blue;
+    position: relative;
+    left: 800px;
+    bottom: 800px;
+} 
+
+.hearst-corporation {
+    background-color: rgb(131, 169, 226);
+    position: relative;
+    left: 1000px;
+    bottom: 1200px;
+}
+
+.clear-channel-outdoor {
+    background-color: yellow;
+    position: relative;
+    left: 1000px;
+    bottom: 1200px;
+}
+
+.img-square {
+    width: 50%;
+    margin-top: 75px;
+    margin-left: 50px;
+    filter: invert();
+}
+
+.big-designit {
+    width: 60%;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.designit-text {
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 12px;
 }
 
 .bg-lightblue-small {
