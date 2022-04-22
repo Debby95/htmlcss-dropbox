@@ -114,11 +114,10 @@ li {
 }
 
 .col-text {
-    width: 40%;
+    width: 50%;
     height: 100px;
     margin-left: 40px;
     margin-right: 20px;
-    padding-top: 30px;
 }
 
 .col-jumbotron {
@@ -379,11 +378,13 @@ li {
 }
 
 .bg-lightblue-small {
-    width: 100%;
-    height: 300px;
+    width: 1200px;
+    margin: 0 auto;
     background-color: lightsteelblue;
-    border: 1px dashed #000000;
     padding-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 250px
 }
 
 .question {
@@ -396,29 +397,24 @@ li {
 }
 
 footer {
-    height: 500px;
-    background-color: grey;
-    border: 1px dashed yellow;
-    margin-left: 30px;
-    margin-right: 30px
+    width: 1200px;
+    margin: 0 auto;
+    background-color: black;
+    color: white;
 }
 
 .list {
     display: flex;
-    padding: 40px 40px;
-    justify-content: center;
-    height: 500px; 
+    padding: 70px 70px;
     gap: 30px;
     padding-top: 60px;
 }
 
 .col-list{
-    border: 1px solid yellow;
     flex-grow: 1;
 }
 
 .language {
-    height: 50px;
-    background-color: grey;
-    border: 1px dashed yellow;
+    height: 100px;
+    padding-left: 70px;   
 }
